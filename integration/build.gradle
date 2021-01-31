@@ -1,0 +1,3 @@
+plugins {
+    id 'ru.avtonomenergo.coupon.java-common-conventions'
+}

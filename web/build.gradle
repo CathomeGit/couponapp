@@ -1,0 +1,14 @@
+plugins {
+    id 'war' // extends from java
+    id 'org.gretty' version '3.0.3' // embedded application server
+    id 'ru.avtonomenergo.coupon.java-common-conventions'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:4.0.1'
+    implementation project(':services')
+}

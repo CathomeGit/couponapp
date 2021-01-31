@@ -1,0 +1,7 @@
+plugins {
+    id 'ru.avtonomenergo.coupon.java-common-conventions'
+}
+
+dependencies {
+    implementation project(':integration')
+}
